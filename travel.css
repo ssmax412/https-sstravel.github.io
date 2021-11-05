@@ -8,6 +8,13 @@ flex-wrap: nowrap;
    
     z-index:999;
 }
+.logo a{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 20px 0;
+}
+
 /*カラム*/
 .three-column{
     margin-bottom: 72px;

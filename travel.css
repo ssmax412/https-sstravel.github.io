@@ -1,0 +1,174 @@
+@charset "utf-8";
+.navbar{
+    overflow-x:scroll;
+overflow-y:hidden;
+flex-wrap: nowrap;
+}
+.header{
+   
+    z-index:999;
+}
+/*カラム*/
+.three-column{
+    margin-bottom: 72px;
+}
+.read a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+  }
+  .read a::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #333;
+    opacity: 1;
+    visibility: visible;
+    transition: .1s;
+  }
+  .read a:hover::after {
+    bottom: -4px;
+    opacity: 0.5;
+    visibility: hidden;
+  }
+.document p{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0 15px 0;
+}
+.document{
+    margin-bottom: 30px;
+}
+/*main*/
+.main{
+    max-width: 759px;
+    margin-bottom: 82px;
+}
+.day{
+    padding: initial;
+}
+.day li{
+    list-style: none;
+    display: inline;
+    padding:0 20px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.main p{
+font-size: 16px;
+font-weight: 400;
+padding:10px 40px 30px 40px;
+}
+
+/*author*/
+.author img {
+	width:130px;
+	height:130px;
+	object-fit:cover;
+	border-radius:50%; 
+    margin-bottom: 30px;
+}
+.author{
+    text-align: center;
+   
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/*ranking*/
+.rank{
+    text-align: center;
+    margin-bottom:50px ;
+}
+.ranking{
+    padding-top: 102px;
+    margin-bottom: 80px;
+}
+/*archive*/
+.archive td{
+    padding: 20px;
+    
+}
+h2{
+    text-align: center;
+}
+
+/*about*/
+footer{
+    background-color: rgb(247,247,247);
+    margin-top: 60px;
+}
+.foot{
+    padding:50px 16px ;
+}
+.list_triangle {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.list_triangle > li {
+    position: relative;
+    padding: 0px 0px 0px 1em;
+    
+}
+.list_triangle > li::before {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
+    border: 0.3em solid transparent;
+    border-left: 0.4em solid black;
+    content: "";
+}
+.list_triangle a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+   margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.about{
+    margin-bottom: 30px;
+}
+/*menu*/
+tbody a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    margin-bottom: 30px;
+}
+/*copy-right*/
+.footer-bottom{
+    background-color: rgb(247,247,247);
+}
+.footer-bottom p{
+    margin: initial;
+    font-size: 12px;
+}
+
+
+
+@media (min-width:1020px) {
+    .navbar{
+        overflow-x:hidden;
+    overflow-y:none;
+    flex-wrap: none;
+    }
+}

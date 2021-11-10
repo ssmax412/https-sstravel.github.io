@@ -8,13 +8,6 @@ flex-wrap: nowrap;
    
     z-index:999;
 }
-.logo a{
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 25px;
-    padding: 20px 0;
-}
-
 /*カラム*/
 .three-column{
     margin-bottom: 72px;
@@ -66,7 +59,7 @@ flex-wrap: nowrap;
     font-size: 16px;
     font-weight: 400;
 }
-h1{
+h2{
     font-size: 24px;
     font-weight: 700;
 }
@@ -88,7 +81,7 @@ padding:10px 40px 30px 40px;
     text-align: center;
    
 }
-h2{
+h3{
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 700;
@@ -103,14 +96,23 @@ h2{
     margin-bottom: 80px;
 }
 /*archive*/
-.archive td{
-    padding: 20px;
-    
-}
-h2{
+h3{
     text-align: center;
 }
-
+.archiveli li{
+    padding: 20px;
+    list-style: none;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+.archiveli a,.table a{
+    text-decoration: none;
+    color: black;
+}
+.cell{
+    border-top: 1px solid #c0c0c0;
+    padding: initial;
+}
 /*about*/
 footer{
     background-color: rgb(247,247,247);
@@ -145,7 +147,7 @@ footer{
     text-decoration: none;
     color: black;
 }
-h3{
+h4{
    margin-bottom: 30px;
     font-size: 18px;
     font-weight: 700;
@@ -154,13 +156,17 @@ h3{
     margin-bottom: 30px;
 }
 /*menu*/
-tbody a{
-    text-decoration: none;
-    color: black;
-}
+
 .menu{
     margin-bottom: 30px;
 }
+.table li{
+    padding: 8px 0 8px 0;
+    list-style: none;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
 /*copy-right*/
 .footer-bottom{
     background-color: rgb(247,247,247);
@@ -168,9 +174,15 @@ tbody a{
 .footer-bottom p{
     margin: initial;
     font-size: 12px;
+    
 }
-
-
+/*ロゴ*/
+.logo a{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 20px 0;
+}
 
 @media (min-width:1020px) {
     .navbar{
